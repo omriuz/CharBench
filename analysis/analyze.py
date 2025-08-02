@@ -371,7 +371,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Analysis Parser")
-    parser.add_argument("-i", "--input",default="english_evaluation_results.csv",help="Path to the results file")
+    parser.add_argument("-i", "--input",default="evaluation_results.csv",help="Path to the results file")
     parser.add_argument("-o", "--output_folder",default='plots')
     parser.add_argument("-m", "--models",default=[
     "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",

@@ -153,8 +153,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-m","--models",default=["meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo","meta-llama/Llama-3.3-70B-Instruct-Turbo","deepseek-ai/DeepSeek-V3","mistralai/Mistral-7B-Instruct-v0.2",], 
                         help="List of Together.ai models to use")
-    parser.add_argument("-i","--input_file", type=str, default="benchmark_english.csv", help="Input CSV file")
-    parser.add_argument("-o","--output_file", type=str, default="english_evaluation_results.csv", help="Output CSV file")
+    parser.add_argument("-i","--input_file", type=str, default="benchmark.csv", help="Input CSV file")
+    parser.add_argument("-o","--output_file", type=str, default="evaluation_results.csv", help="Output CSV file")
     parser.add_argument("--task", type=str, default="all", help="Task to evaluate")
     parser.add_argument("--batch_size", type=int, default=20, help="Number of concurrent API calls")
     args = parser.parse_args()

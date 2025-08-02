@@ -53,7 +53,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--input",
-        default="english_evaluation_results.csv",
+        default="evaluation_results.csv",
         help="Path to the results file"
     )
     args = parser.parse_args()

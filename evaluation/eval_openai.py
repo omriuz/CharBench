@@ -118,8 +118,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-m","--models",default=["gpt-4o","gpt-4o-mini","gpt-3.5-turbo"],type=List,
                         help="List of OpenAI models to use")
-    parser.add_argument("-i","--input_file", type=str, default="benchmark_english.csv", help="Input CSV file")
-    parser.add_argument("-o","--output_file", type=str, default="english_evaluation_results.csv", help="Output CSV file")
+    parser.add_argument("-i","--input_file", type=str, default="benchmark.csv", help="Input CSV file")
+    parser.add_argument("-o","--output_file", type=str, default="evaluation_results.csv", help="Output CSV file")
     parser.add_argument("--batch_size", type=int, default=100, help="Number of requests to batch together")
     parser.add_argument("--task", type=str, default="all", help="Task to evaluate")
     args = parser.parse_args()
