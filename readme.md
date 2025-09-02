@@ -113,3 +113,18 @@ python analysis/analyze.py [-i PATH] [-o DIR] [-m MODELS...]
 ```
 
 Defaults: `-i/--input` `evaluation_results.csv`, `-o/--output_folder` `plots`, `-m/--models` `meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo, meta-llama/Llama-3.3-70B-Instruct-Turbo, deepseek-ai/DeepSeek-V3, mistralai/Mistral-7B-Instruct-v0.2, gpt-4o, gpt-4o-mini, gpt-3.5-turbo`.
+
+## Citation
+
+If you use CharBench, please cite:
+```
+@misc{uzan2025charbenchevaluatingroletokenization,
+      title={CharBench: Evaluating the Role of Tokenization in Character-Level Tasks}, 
+      author={Omri Uzan and Yuval Pinter},
+      year={2025},
+      eprint={2508.02591},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.02591}, 
+}
+```
