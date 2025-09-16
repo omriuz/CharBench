@@ -4,6 +4,8 @@ Character-level benchmark and analysis suite for LLMs.
 
 The dataset is available [through HuggingFace.](https://huggingface.co/datasets/omriuz/CharBench)
 
+For complete details on data curation and evaluation, see the [paper](https://arxiv.org/abs/2508.02591).
+
 ## Installation
 
 1. Use Python 3.10 or newer.
